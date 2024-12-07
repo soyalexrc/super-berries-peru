@@ -1,6 +1,7 @@
 import SocialBar from "@/lib/components/layout/SocialBar";
 import Navbar from "@/lib/components/layout/Navbar";
 import Footer from "@/lib/components/layout/Footer";
+import {Fragment} from "react";
 
 export default function RootLayout({
                                        children,
@@ -8,11 +9,13 @@ export default function RootLayout({
     children: React.ReactNode;
 }>) {
     return (
-       <div>
+       <Fragment>
            <SocialBar />
            <Navbar />
-           {children}
+           <div className="pt-[6.5rem]">
+               {children}
+           </div>
            <Footer />
-       </div>
+       </Fragment>
     );
 }

@@ -6,10 +6,10 @@ import PacksBanner from "@/lib/components/home/PacksBanner";
 import QualityBanner from "@/lib/components/home/QualityBanner";
 import ProductsInDiscountBanner from "@/lib/components/home/ProductsInDiscountBanner";
 import SpecialProductBanner from "@/lib/components/home/SpecialProductBanner";
-import MostSoldProductsBanner from "@/lib/components/home/MostSoldProductsBanner";
+// import MostSoldProductsBanner from "@/lib/components/home/MostSoldProductsBanner";
 import DeliveryInfoBand from "@/lib/components/home/DeliveryInfoBand";
 import TestimonialsCarousel from "@/lib/components/home/TestimonialsCarousel";
-import BlogPreviewBanner from "@/lib/components/home/BlogPreviewBanner";
+// import BlogPreviewBanner from "@/lib/components/home/BlogPreviewBanner";
 import BenefitsBanner from "@/lib/components/home/BenefitsBanner";
 
 export default function Home() {
@@ -23,10 +23,10 @@ export default function Home() {
             <QualityBanner/>
             <ProductsInDiscountBanner/>
             <SpecialProductBanner/>
-            <MostSoldProductsBanner/>
+            {/*<MostSoldProductsBanner/>*/}
             <DeliveryInfoBand/>
             <TestimonialsCarousel/>
-            <BlogPreviewBanner/>
+            {/*<BlogPreviewBanner/>*/}
             <BenefitsBanner/>
         </main>
     );
